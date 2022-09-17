@@ -109,7 +109,7 @@ main section {
 }
 header div {
   animation: fromTop .7s .2s;
-  animation: loading 2s linear infinite;
+  animation: loading .2s linear infinite;
   
 }
 main section:nth-child(1){

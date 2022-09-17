@@ -109,6 +109,7 @@ main section {
 }
 header div {
   animation: fromTop .7s .2s;
+  animation: loading 2s linear infinite;
   
 }
 main section:nth-child(1){
@@ -141,4 +142,14 @@ main section:nth-child(3){
     transform: translateX(0);
 
   }
+}
+
+@keyframes loading {
+  from {
+		transform: rotate(0);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
 }
